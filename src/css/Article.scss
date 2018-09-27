@@ -1,0 +1,60 @@
+//main: main.scss
+
+.Articles {
+  h2 {
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Bonbon';
+    line-height: 56px;
+    font-weight: 100;
+  }
+  .Article {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .box-yellow{
+      width: 470px;
+      height: 724px;
+      background-color: #F2C94C;
+    }
+    .contenu{
+      .contenu-titre{
+        h3{
+          font-size: 3.2em;
+          font-family: 'Bonbon';
+          line-height: 43px;
+          font-weight: 100;
+          margin-bottom: 0;
+        }
+        p{
+          margin-top: 0;
+          font-family: 'Bonbon';
+          line-height: 21px;
+          text-align: justify;
+          font-size: 1.5em;
+          font-weight: 100;
+          padding-left: 3em;
+          margin-bottom: 6em;
+        }
+      }
+      .contenu-paragraphe {
+        p{
+          font-size: 2em;
+          line-height: 25px;
+          font-weight: 100;
+          font-family: 'Emilys';
+          span{
+            padding-left: 1em;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and(max-width:819px) {
+  .Articles{
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+}
