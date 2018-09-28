@@ -1,6 +1,5 @@
 // compressedFilenamePattern: ./main.min.css
 @import "./Font.scss";
-@import "./Article.scss";
 
   $C1: #C75050;
   $C2: #512121;
@@ -72,3 +71,6 @@ body {
     }
   }
 }
+
+@import "./Article.scss";
+@import "./erreur.scss";
