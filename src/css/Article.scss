@@ -1,6 +1,7 @@
 //main: main.scss
 
 .Articles {
+  height: 85em;
   h2 {
     text-align: center;
     font-size: 4em;
@@ -15,7 +16,7 @@
     .box-yellow{
       width: 470px;
       height: 724px;
-      background-color: #F2C94C;
+      background-color: $C3;
     }
     .contenu{
       .contenu-titre{
